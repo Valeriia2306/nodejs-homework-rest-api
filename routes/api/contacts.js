@@ -4,7 +4,7 @@ const ctrl = require("../../controllers/contacts");
 const router = express.Router();
 const { validateBody } = require("../../middlewares");
 const schemas = require("../../schemas/contacts");
-
+// Rout
 router.get("/", ctrl.getAll);
 
 router.get("/:id", ctrl.getById);
