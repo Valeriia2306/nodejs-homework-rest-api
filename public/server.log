@@ -14,3 +14,10 @@ POST: /api/contacts | 22-05-2023_05:16:42
 POST: /api/contacts | 22-05-2023_05:17:48
 
 GET: /api/contacts | 24-05-2023_12:16:58
+GET: /api/contacts | 24-05-2023_03:32:06
+DELETE: /api/contacts/646cc6527514be237a6f0688 | 24-05-2023_03:35:37
+PATCH: /api/contacts/646781cb230cc673b75373d7 | 24-05-2023_03:39:00
+PATCH: /api/contacts/646781cb230cc673b75373d7 | 24-05-2023_03:39:27
+PATCH: /api/contacts/646781cb230cc673b75373d7 | 24-05-2023_03:40:25
+PATCH: /api/contacts/646781cb230cc673b75373d7 | 24-05-2023_03:40:53
+PATCH: /api/contacts/646781cb230cc673b75373d7/favorite | 24-05-2023_03:41:13
