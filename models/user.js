@@ -6,6 +6,10 @@ const emailRegexp = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 const userSchema = new Schema(
   {
+    name: {
+      type: String,
+      required: true,
+    },
     password: {
       type: String,
       required: [true, "Password is required"],
@@ -48,6 +52,7 @@ const schemas = {
 };
 
 const User = model("user", userSchema);
+
 module.exports = {
   schemas,
   User,
