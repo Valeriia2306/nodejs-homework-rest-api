@@ -5,11 +5,6 @@ require("dotenv").config();
 const moment = require("moment");
 const fs = require("fs/promises");
 
-
-
-
-
-
 const contactsRouter = require("./routes/api/contacts");
 const authRouter = require("./routes/api/auth");
 
@@ -27,6 +22,7 @@ app.use(async (req, res, next) => {
 app.use(logger(formatsLogger));
 app.use(cors());
 app.use(express.json());
+app.use(express.static("public"));
 
 app.use("/api/contacts", contactsRouter);
 app.use("/api/auth", authRouter);
