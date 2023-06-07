@@ -142,3 +142,5 @@ PATCH: /api/auth/avatars | 05-06-2023_04:03:57
 PATCH: /api/auth/avatars | 05-06-2023_04:06:33
 POST: /api/auth/login | 05-06-2023_04:07:18
 PATCH: /api/auth/avatars | 05-06-2023_04:07:49
+POST: /api/auth/login | 07-06-2023_11:29:47
+PATCH: /api/auth/avatars | 07-06-2023_11:32:31
