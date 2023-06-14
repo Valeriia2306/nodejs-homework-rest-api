@@ -5,6 +5,12 @@ const { schemas } = require("../../models/user");
 const ctrl = require("../../controllers/auth");
 // signup
 router.post("/register", validateBody(schemas.registerSchema), ctrl.register);
+router.get("/verify/:verificationCode", ctrl.verify);
+router.post(
+  "/verify",
+  validateBody(schemas.userEmailSchema),
+  ctrl.resendVerifyEmail
+);
 // signIn
 router.post("/login", validateBody(schemas.loginSchema), ctrl.login);
 
